@@ -6,7 +6,7 @@ function pasanganTerbesar(num) {
 		angka[i] = number[i] + number[i + 1];
 	}
 	var digit = angka[0];
-	for (var j = 1; j < angka.length; j--){
+	for (var j = 1; j < angka.length; j++){
 		if (angka[j] > digit){
 			digit = angka[j]
 		}
