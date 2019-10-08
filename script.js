@@ -1,14 +1,14 @@
 
 function pasanganTerbesar(num) {
-	var number = String(num).split('');
-	var angka = [];
-	for (var i = 0; i < number.length; i++) {
-		angka[i] = number[i] + number[i + 1];
+	var nomer = String(num).split('');
+	var nomors = [];
+	for (var i = 0; i < nomer.length; i++) {
+		nomors[i] = nomer[i] + nomer[i + 1];
 	}
-	var digit = angka[0];
-	for (var j = 1; j < angka.length; j++){
-		if (angka[j] > digit){
-			digit = angka[j]
+	var digit = nomors[0];
+	for (var j = 1; j < nomors.length; j++){
+		if (nomors[j] > digit){
+			digit = nomors[j]
 		}
 	}
 	return digit;
